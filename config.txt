@@ -1,0 +1,3 @@
+800 150 650 300
+F:/GAme/other/python/red/yt-simple-downloader
+mp4 webm m4a mp3 ogg wav 3gp aac flv
