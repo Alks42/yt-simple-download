@@ -9,7 +9,7 @@ Tkinter, tkinter.ttk and ytl_dlp.
 ## Config file
 Contain 3 changeable  parameters:
 - 1st line - width, height and position on the screen.
-- 2d line - destination folder. Due to some bug in pyinstaller .exe version should contain only latin letters in the path. If not, your path will be saved with errors and you will have to set it again with the next program start.
+- 2d line - destination folder
 - 3d line - formats. There are plenty of them but 90% of youtube videos use mp4 for video and m4a for audio. 
 ### Is there any .exe file?
 Yep, just look to the right to releases section.
