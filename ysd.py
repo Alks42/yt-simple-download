@@ -107,10 +107,10 @@ class Main_Window(Tk):
         p = askdirectory()
         if p:
             self.path.set(p)
-            with open("config.txt", "r", encoding="utf-8") as f:
+            with open("config.txt", "r", encoding="utf-8", errors="ignore") as f:
                 lines = f.readlines()
 
-            with open("config.txt", "w", encoding="utf-8") as f:
+            with open("config.txt", "w", encoding="utf-8", errors="ignore") as f:
                 f.write(lines[0] + p + "\n" + lines[2])
 
     def run_thread(self):
