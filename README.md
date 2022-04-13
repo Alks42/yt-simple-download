@@ -1,5 +1,5 @@
 # What is that?
-Just a small and very simple gui to download youtube videos (single one or whole playlists) as videos or audios using [ytl_dlp package](https://github.com/yt-dlp/yt-dlpp). 
+Just small and very simple gui to download youtube videos (single one or whole playlists) as videos or audios using [ytl_dlp package](https://github.com/yt-dlp/yt-dlpp). 
 
 ![163199530-38dfecf0-d6d8-4cbd-89bd-3cd390c19339](https://user-images.githubusercontent.com/90620708/163203005-e25a1624-3bb8-4bf8-b470-b4034bd5f635.png)
 
