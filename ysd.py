@@ -163,7 +163,7 @@ if __name__ == "__main__":
                 "[download] Finished downloading",
                 "[download] Destination:"]
     # params
-    with open("config.txt", "r", encoding="utf-8", errors="ignore") as f:
+    with open("config.txt", "r", encoding="utf-8", errors="replace") as f:
         lines = f.readlines()
 
     res = lines[0].rstrip().split(" ")
